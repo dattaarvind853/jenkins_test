@@ -1,7 +1,7 @@
-pipeline{
-    agent{
-        label "any"
-    }
+pipeline {
+
+    agent any 
+
     stages{
         stage("Echo") {
 
@@ -11,7 +11,8 @@ pipeline{
             
         }
     }
-    post{
+    post {
+
         always{
             echo "Finished Posting"
         }
