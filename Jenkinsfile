@@ -11,10 +11,11 @@ pipeline {
             
         }
     }
+    
     post {
 
         always{
-            echo "Finished Posting"
+            echo "Sree Guru Datta"
         }
         
     }
